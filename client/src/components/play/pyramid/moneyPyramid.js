@@ -1,0 +1,92 @@
+export default [
+  {
+    question: 1,
+    money: "50",
+    active: true,
+    moneySafe: true,
+  },
+  {
+    question: 2,
+    money: "100",
+    active: false,
+    moneySafe: false,
+  },
+  {
+    question: 3,
+    money: "200",
+    active: false,
+    moneySafe: false,
+  },
+  {
+    question: 4,
+    money: "300",
+    active: false,
+    moneySafe: false,
+  },
+  {
+    question: 5,
+    money: "500",
+    active: false,
+    moneySafe: true,
+  },
+  {
+    question: 6,
+    money: "1.000",
+    active: false,
+    moneySafe: false,
+  },
+  {
+    question: 7,
+    money: "2.000",
+    active: false,
+    moneySafe: false,
+  },
+  {
+    question: 8,
+    money: "4.000",
+    active: false,
+    moneySafe: false,
+  },
+  {
+    question: 9,
+    money: "8.000",
+    active: false,
+    moneySafe: false,
+  },
+  {
+    question: 10,
+    money: "16.000",
+    active: false,
+    moneySafe: false,
+  },
+  {
+    question: 11,
+    money: "32.000",
+    active: false,
+    moneySafe: false,
+  },
+  {
+    question: 12,
+    money: "64.000",
+    active: false,
+    moneySafe: false,
+  },
+  {
+    question: 13,
+    money: "125.000",
+    active: false,
+    moneySafe: false,
+  },
+  {
+    question: 14,
+    money: "500.000",
+    active: false,
+    moneySafe: false,
+  },
+  {
+    question: 15,
+    money: "1 MILLION",
+    active: false,
+    moneySafe: true,
+  },
+];

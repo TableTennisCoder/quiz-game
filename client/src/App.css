@@ -1,0 +1,51 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.playScreen {
+  display: flex;
+  width: 100%;
+}
+
+.mainContainer {
+  position: relative;
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  align-items: center;
+  justify-content: center;
+}
+
+.mainContainer::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-image: url("https://cdn.nuuk.de/wp-content/uploads/2019/10/03172358/Presentation_Screen_RTL-copy.png");
+  background-size: cover;
+  background-position: center center;
+  filter: brightness(30%);
+  z-index: -1;
+}
+
+.startBtn {
+  width: 250px;
+  z-index: 1;
+  background: rgb(235, 167, 31);
+  background: radial-gradient(
+    circle,
+    rgba(235, 167, 31, 1) 0%,
+    rgba(245, 117, 0, 1) 100%
+  );
+}
+
+.message {
+  font-family: "Lato", sans-serif;
+  color: white;
+}
